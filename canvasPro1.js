@@ -69,7 +69,7 @@ let arr = [];
 
 function init() {
     arr = [];
-    for (let i = 0; i < 400; i++) {
+    for (let i = 0; i < 800; i++) {
         const radius = Math.random() * 20 + 1;
         const x = Math.random() * (innerWidth - radius * 2) + radius;
         const y = Math.random() * (innerHeight - radius * 2) + radius;
